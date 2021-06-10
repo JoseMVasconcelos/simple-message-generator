@@ -1,10 +1,10 @@
 Simple Message Generator WIP
 ========================
 ## Table of contents
-* [General Info] (#general-info)
-* [Technologies] (#technologies)
-* [To Do] (#to-do)
-* [Setup] (#setup)
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [To Do](#to-do)
+* [Setup](#setup)
 
 
 ## General Info
