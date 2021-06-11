@@ -15,10 +15,10 @@ This is a simple project that generates a random "famous quotes" that no one act
 
 ## To Do
 - [x] Store quotes
-- [ ] Store random things
-- [ ] Generate a random quote.
+- [x] Store random things
+- [x] Generate a random quote.
 - [ ] Make a simple website.
 
 ## Setup
-Download the `generator.js` and run using `Node.js`.
-Does absolutelly nothing right now.
+Download the `script.js` and run using `Node.js`.
+It generate a random quote that no one actually said it.
