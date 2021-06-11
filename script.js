@@ -43,18 +43,23 @@ const quoteGenerator = (famousQuotes, randomThings) => {
     randomThings1 = randomThings[getRandomIndex(randomThings)];
     randomThings2 = randomThings[getRandomIndex(randomThings)];
     randomThings3 = randomThings[getRandomIndex(randomThings)];
-    let randomQuote = famousQuotes[getRandomIndex(famousQuotes)];
-    let generatedQuote = randomQuote.replace(/rd0/gi, randomThings1).replace(`rd1`, randomThings2).replace(`rd2`, randomThings3);
-    return generatedQuote;
+    return generatedQuote = famousQuotes[getRandomIndex(famousQuotes)].replace(/rd0/gi, randomThings1).replace(/rd1/gi, randomThings2).replace(/rd2/gi, randomThings3);
 }
 
 const getRandomPerson = famousPerson => {
     return famousPerson[getRandomIndex(famousPerson)];
 }
 
+const capitalizeFirstLetter = string => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
-console.log(quoteGenerator(famousQuotes, randomThings));
-console.log(getRandomPerson(famousPerson))
+const getRandomQuote = () => {
+    const randomQuote = quoteGenerator(famousQuotes, randomThings);
+    const randomPerson = getRandomPerson(famousPerson);
+    let quote = `"` + capitalizeFirstLetter(randomQuote) + `"` + " " + `---` + randomPerson;
+}
 
+getRandomQuote();
 
 
