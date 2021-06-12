@@ -1,4 +1,4 @@
-Simple Message Generator WIP
+Fake Quote Generator WIP
 ========================
 ## Table of contents
 * [General Info](#general-info)
@@ -12,6 +12,8 @@ This is a simple project that generates a random "famous quotes" that no one act
 
 ## Technologies
 * Node.js v14.17.0
+* HTML5
+* CSS
 
 ## To Do
 - [x] Store quotes
@@ -20,5 +22,4 @@ This is a simple project that generates a random "famous quotes" that no one act
 - [ ] Make a simple website.
 
 ## Setup
-Download the `script.js` and run using `Node.js`.
-It generate a random quote that no one actually said it.
+Needs to be updated xd
